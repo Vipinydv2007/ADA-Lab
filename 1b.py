@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 
 # Example Data (replace with your measured values from C program)
 n_values = [10, 50, 100, 500, 1000, 3000, 5000, 7000, 10000, 20000]
-time_values = [0.000007, 0.000008, 0.000011, 0.000013, 0.000006,
-               0.000009, 0.000007, 0.000008, 0.000011, 0.000007]
+time_values = [0.00000001, 0.00000001, 0.00000002, 0.00000002, 0.00000003,
+               0.00000003, 0.00000004, 0.00000004, 0.00000004, 0.00000004]
 
 # Plotting
 plt.figure(figsize=(10, 6))
